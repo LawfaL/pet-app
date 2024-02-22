@@ -1,0 +1,18 @@
+.monito-seller-section {
+    padding: 28px 130px 28px 130px;
+    background-color: white;
+}
+
+.monito-seller-section-imgcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 2em 0;
+}
+
+.monito-seller-section img {
+    width: 8em;
+    height: auto;
+    object-fit: cover;
+}

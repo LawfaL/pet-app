@@ -1,0 +1,57 @@
+.monito-header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 130px 28px 130px;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    z-index: 99;
+    /* background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%); */
+}
+
+.monito-header-leftside {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.monito-header-nav {
+    display: flex;
+    gap: 56px;
+}
+
+.monito-header-nav a {
+    text-decoration: none;
+    color: #003459;
+}
+
+.monito-header-nav a:hover {
+    color: #00345990;
+}
+
+.monito-header-rightside {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.monito-header-rightside input{
+    width: 280px;
+}
+
+.monito-header-profile {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.monito-header-profile:hover {
+    cursor: pointer;
+}
+
+.monito-header-profile-identity {
+    display: flex;
+    gap: 6px;
+    padding: 10px 8px 8px 8px;
+    align-items: center;
+}

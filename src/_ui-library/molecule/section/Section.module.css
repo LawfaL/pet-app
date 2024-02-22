@@ -1,0 +1,26 @@
+.monito-section {
+    padding: 80px 130px 80px 130px;
+}
+
+.monito-section-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.monito-section-items {
+    background-color: white;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: auto auto auto auto;
+}   
+
+@media only screen and (max-width: 800px) {
+    .monito-section-items {
+        grid-template-columns: auto auto;
+    }  
+
+    .monito-section {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,6 @@
+export * from "./banner"
+export * from "./footer"
+export * from "./info-section"
+export * from "./pet-section"
+export * from "./product-section"
+export * from "./seller-section"

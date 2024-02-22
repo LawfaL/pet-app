@@ -1,0 +1,66 @@
+.monito-card {
+    background-color: white;
+    box-shadow: 0px 4px 28px -2px #00000014;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.monito-card:hover {
+    transform: scale(1.01);
+}
+
+.monito-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.monito-card-description {
+    text-align: left;
+    padding-left: 0.5em;
+    width: 90%;
+    padding-bottom: 1em;
+}
+
+.monito-card-description-info {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.minoto-card-badges {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 1em;
+}
+
+.monito-card-promo {
+    background-color: #FCEED5;
+    padding: 1em;
+    border-radius: 8px;
+    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .monito-card img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    
+    .monito-card p {
+        font-size: 12px;
+    }
+
+    .monito-card span {
+        font-size: 10px;
+    }
+}

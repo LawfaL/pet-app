@@ -1,0 +1,1 @@
+export const currencyFormatter = (str: string | number) => str.toLocaleString().replace(/[,]+/g, ".")

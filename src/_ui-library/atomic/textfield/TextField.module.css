@@ -1,0 +1,24 @@
+.monito-textfield-container {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 46px;
+    padding: 12px 20px 12px 16px;
+}
+
+.monito-textfield-container img{
+    width: 16.68px;
+    height: 16.68px;
+}
+
+.monito-textfield-container input {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.monito-textfield-container input::placeholder {
+    color: #99A2A5;
+    opacity: 1; /* Firefox */
+  }

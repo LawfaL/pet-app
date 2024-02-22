@@ -1,0 +1,9 @@
+.monito-badge {
+    background-color: #00A7E7;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 28px;
+    gap: 10px;
+    display: inline-block;
+    size: 10px;
+}

@@ -1,0 +1,42 @@
+.monito-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 57px;
+    gap: 10px;
+    padding: 12px 28px 12px 28px;
+}
+
+.monito-button--fill {
+    background-color: #003459;
+    outline: none;
+    border: none;
+}
+
+.monito-button--outline {
+    border: 1px solid #003459;
+    background-color: transparent;
+    opacity: 100;
+}
+
+.monito-button--fill:hover {
+    cursor: pointer;
+    background-color: #003459c0;
+}
+
+.monito-button--outline:hover {
+    cursor: pointer;
+    background-color: #003459be;
+    color: white;
+}
+
+.monito-button--icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.monito-button--icon:hover {
+    cursor: pointer;
+}

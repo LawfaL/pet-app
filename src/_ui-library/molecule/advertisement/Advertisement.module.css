@@ -1,0 +1,85 @@
+.monito-ads-container {
+    padding: 0 130px 0 130px;
+    height: 378px;
+    background-color: white;
+}
+
+.rect-ads {
+    width: 1000px;
+    height: 700px;
+}
+
+.rect-ads-1 {
+    bottom: 0;
+    right: -10em;
+    transform: rotate(25deg);
+    background-color: #FCEED5;
+}
+
+.rect-ads-2 {
+    bottom:-35em;
+    left: -10em;
+    transform: rotate(25deg);
+    background-color: #002A48;
+}
+
+.rect-ads-2--flip {
+    bottom:-35em;
+    left: -10em;
+    transform: rotate(25deg);
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    opacity: 30%;
+}
+
+.monito-ads {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #003459;
+    border-radius: 20px;
+}
+
+.monito-ads-content {
+    position: relative;
+    height: 100%;
+    z-index: 3;
+    justify-content: space-between;
+}
+
+.monito-ads-content {
+    position: relative;
+    display: flex;
+    z-index: 9;
+}
+
+.monito-ads-text {
+    padding: 2em 5em 0 5em;
+    width: 500px;
+}
+
+.monito-ads-buttons {
+    display: flex;
+    gap: 16px;
+    padding-top: 2em;
+    justify-content: end;
+}
+
+.monito-ads-buttons--flip {
+    justify-content: start;
+}
+
+.monito-ads--flip {
+    transform: scaleX(-1);
+    background-color: #FFB775;
+}
+
+.monito-ads-text--flip {
+    transform: scaleX(-1);
+    text-align: left;
+}
+
+.monito-img--flip {
+    transform: rotate(-65deg);
+}
+

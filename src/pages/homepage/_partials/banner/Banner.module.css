@@ -1,0 +1,37 @@
+.monito-banner {
+    border-radius: 0px 0px 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 130px 28px 130px;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+.monito-banner-left {
+    padding-top: 3em;
+}
+
+.monito-banner-left-text h1, h2{
+    margin: 0;
+    text-align: left;
+}
+
+.monito-banner-left p{
+    text-align: left;
+    padding: 1em 0 1em;
+    line-height: 24px;
+    
+}
+
+.monito-banner-left-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.monito-banner-right img {
+    position: relative;
+    z-index: 2;
+    width: auto;
+    height: 690px;
+}
