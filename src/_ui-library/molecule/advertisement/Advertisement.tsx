@@ -36,7 +36,7 @@ const AdvertisementMemo = ({
           ])}
         />
         <div className={styles["monito-ads-content"]}>
-          <img className={flip && styles["monito-img--flip"]} src={imgUrl} />
+          <img alt="image" className={flip && styles["monito-img--flip"]} src={imgUrl} />
           <div
             className={classNames([
               styles["monito-ads-text"],

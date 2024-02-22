@@ -32,7 +32,7 @@ const BannerMemo = () => {
         </div>
       </div>
       <div className={styles["monito-banner-right"]}>
-        <img src={Woman} />
+        <img alt="image" src={Woman} />
         <div className="rect rect-2" />
         <div className="rect rect-3" />
         <div className="rect rect-4" />

@@ -19,8 +19,8 @@ const SellerSectionMemo = () => {
         <span className="font-bold text-primary text-md"> Pet Sellers</span>
       </div>
       <div className={styles["monito-seller-section-imgcontent"]}>
-        {images.map((p) => (
-          <img src={p} />
+        {images.map((p, idx) => (
+          <img key={idx} alt="image" src={p} />
         ))}
       </div>
     </div>

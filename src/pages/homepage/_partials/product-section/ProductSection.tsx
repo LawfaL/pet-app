@@ -26,6 +26,7 @@ const ProductSectionMemo = () => {
       items={product.map((data: any, idx) => {
         return (
           <Card
+            key={idx}
             type="product-card"
             promo={"Free toys & shaker"}
             title={data.title}

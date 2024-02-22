@@ -9,7 +9,7 @@ const HeaderMemo = () => {
   return (
     <div className={styles["monito-header-container"]}>
       <div className={styles["monito-header-leftside"]}>
-        <img src={Logo} />
+        <img alt="image" src={Logo} />
         <div
           className={classNames([
             styles["monito-header-nav"],

@@ -16,7 +16,7 @@ const CardMemo: React.FC<ICard> = ({
   const CardProduct = () => {
     return (
       <div className={styles["monito-card"]}>
-        <img src={imgUrl} />
+        <img alt="image" src={imgUrl} />
         <div className={styles["monito-card-description"]}>
           <p className="font-bold text-sm">{title}</p>
           <div>{description}</div>
@@ -35,10 +35,10 @@ const CardMemo: React.FC<ICard> = ({
   const CardInfo = () => {
     return (
       <div className={styles["monito-card"]}>
-        <img src={imgUrl} />
+        <img alt="image" src={imgUrl} />
         <div className={styles["minoto-card-badges"]}>
-          {badges.map((s: string) => (
-            <Badge label={s} />
+          {badges.map((s: string, idx: number) => (
+            <Badge key={idx} label={s} />
           ))}
         </div>
         <div className={styles["monito-card-description"]}>

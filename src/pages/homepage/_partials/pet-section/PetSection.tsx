@@ -25,6 +25,7 @@ const PetSectionMemo = () => {
         .map((data, idx) => {
           return (
             <Card
+              key={idx}
               type="product-card"
               title={data.name}
               imgUrl={`https://randomfox.ca/images/${idx + 1}.jpg`}

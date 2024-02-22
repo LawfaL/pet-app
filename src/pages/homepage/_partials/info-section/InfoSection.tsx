@@ -23,6 +23,7 @@ const InfoSectionMemo = () => {
         .map((data, idx) => {
           return (
             <Card
+              key={idx}
               type="info-card"
               title={data.name}
               imgUrl={`https://randomfox.ca/images/${idx + 1}.jpg`}

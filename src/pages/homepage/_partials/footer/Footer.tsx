@@ -50,7 +50,7 @@ const FooterMemo = () => {
       </div>
       <div className={styles["monito-footer-end"]}>
         <p>© 2022 Monito. All rights reserved.</p>
-        <img src={Logo} />
+        <img alt="image" src={Logo} />
         <div className={styles["monito-footer-terms"]}>
           <a href="/">Term of service</a>
           <a href="/">Privacy Policy</a>
